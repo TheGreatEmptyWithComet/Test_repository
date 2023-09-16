@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:WpfApp_GIT_Test"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="600">
-    <Grid>
+    <Grid Background="Black">
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"/>
             <RowDefinition Height="*"/>
@@ -18,7 +18,7 @@
             <MenuItem Header="Tools"/>
         </Menu>
 
-        <StatusBar Grid.Row="2">
+        <StatusBar Grid.Row="2" Background="YellowGreen">
             <StatusBarItem>
                 <TextBlock Text="Test"/>
             </StatusBarItem>
